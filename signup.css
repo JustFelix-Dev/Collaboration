@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    padding-top: 2em;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(246, 246, 31)
+}
+
+.details-wrapper {
+    height: 70%;
+    width: 50%;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    background-color: white;
+}
+
+.details-wrapper h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.details-wrapper input {
+    padding-left: 0.45em;
+    background-color: rgb(232, 231, 231);
+    margin-top: 0.5em;
+    border: none;
+    height: 3em;
+    width: 80%;
+    transition: 2s;
+}
+
+.details-wrapper input:hover{
+    transform: scale(1.02);
+}
+
+.details-wrapper button {
+    margin-top: 0.6em;
+    background-color: grey;
+    border: none;
+    font-size: larger;
+    font-weight: 600;
+    color: white;
+    height: 3em;
+    width: 80%;
+}
