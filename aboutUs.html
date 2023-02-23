@@ -4,25 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
     <title>Document</title>
   </head>
-  <body class="w-100" style="height: 100vh">
-    <div class="main-container h-100" style="background-color: #c6f1bf">
-      <div class="main d-flex p-5 mt-5">
-        <div class="d-grid gap-3 w-50 justify-content-center">
+  <style>
+    @media screen and (max-width: 600px) {
+      .main {
+        display: flex;
+        flex-direction: column !important;
+        gap: 40px;
+        padding-top: 30px;
+      }
+      .main .div1, .main .div2 {
+        width: 100% !important;
+      }
+    }
+  </style>
+  <body class="w-100 p-5" style="height: 100vh">
+    <div
+      class="main-container h-75 shadow my-auto"
+      style="background-color: #c6f1bf"
+    >
+      <div class="container container-fluid main d-flex mt-5">
+        <div class="d-grid gap-3 w-50 justify-content-center div1">
           <h1>About Us</h1>
           <div>We are a delighted Team</div>
           <button class="btn btn-primary" style="height: 50px">
             Read More
           </button>
         </div>
-        <div class="w-50 d-grid">
+        <div class="w-50 d-grid position-relative h-100 div2">
           <h3 class="text-center">Our Team</h3>
           <img
-            src="reference_image_-_3-1024x602.png"
+            src="images (37)_12.jpeg"
             alt=""
-            class="w-100 h-100"
+            class="w-75 h-75 mx-auto shadow shadow-lg"
           />
         </div>
       </div>
